@@ -1,9 +1,17 @@
 # Heads Up
 
 
-## Big O notation
+## Time Complexity and the Big O notation
 
 #### [Tutorial](https://github.com/NAU-ACM/ACM-ICPC-Preparation/blob/master/Week01/Sieve-of-Eretosthenes/README.md) 
+
+Try to get a gold badge on hackerrank in any one programming Language
+Also check the Problem Solving Section on hackerrank
+Finish Leetcode 50-100 problems
+and Finish interviewbit 200 problems max
+start building habit do this not in 1 week but  over time
+2 mnths is good for doing above tasks i think
+dont waste time now
 
 #### Other Study Sources
 - [Youtube - Undefined Behavior](https://www.youtube.com/watch?v=MyeV2_tGqvw)
