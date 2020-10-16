@@ -21,11 +21,8 @@ void sieve(int size) {
 
 vector<int> primeFactors(int N){
 	vector<int> vc;
-	// Comment line below for using other method (iterator)
-	//
+	
 	int idx = 0, f = primes[idx]; // f standing for FACTOR - idx is index that we will increment 
-	//
-	// More advanced usage would be pointers :
 	// vector<int>::iterator it = primes.begin(); int f = *it; ///// Uncomment for using iterator
 	//
 	while(N != 1 && N >= f * f){
@@ -42,9 +39,10 @@ vector<int> primeFactors(int N){
 	if(N != 1) vc.push_back(N); // This case is for prime numbers or having factor greater than sqrt(N).
 	return vc;
 }
-
+//two methods declared above one that gets prime numbers and other which uses them to generate factors
+//below is the main method
 int main(){
-	
+	//input number in seive greater than n
 	sieve(10000);
 	int n = 18;
 	// cin >> n;
